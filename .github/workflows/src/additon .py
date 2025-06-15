@@ -1,5 +1,8 @@
+# app.py
+# This is a test commit
 def add(a, b):
-  return a + b 
-# Test the function 
-if __name__ == "__main__":
-  print(add(2, 3))  #Output:
+    return a + b
+
+def test_add():
+    assert add(1, 2) == 3
+    assert add(1, -1) == 0
